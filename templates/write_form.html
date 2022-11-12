@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='UTF-8'>
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1">
+  </head>
+  <body>
+  <h1>※短文の日本語を入力してください。</h1>
+  <form action="/write" method="POST">
+      <textarea name="msg" rows="1" cols="60"></textarea>
+      <input type="submit" value="投稿">
+  </form>
+  <p><a href="/delete">削除する</a></p>
+  <div>{{ board | linebreak }}</div>
+  </body</html>
