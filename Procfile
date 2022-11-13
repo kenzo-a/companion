@@ -1,0 +1,1 @@
+web: gunicorn org1:app --log-file -
